@@ -1100,6 +1100,21 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+/*.carousel{
+  max-width: 300px; margin: auto;
+}*/
+
+    .carousel {
+      height: 400px; /* Adjust this value as needed */
+      overflow: hidden; /* Hide overflow if images exceed container height */
+    }
+
+    /* Set fixed dimensions for carousel images */
+    .carousel img {
+      width: 100%; /* Make the image take up the full width of the carousel */
+      height: 100%; /* Make the image take up the full height of the carousel */
+      object-fit: cover; /* Maintain aspect ratio while covering the image area */
+    }
 
   .carousel-caption {
     color: black;
