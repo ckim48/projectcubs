@@ -747,9 +747,12 @@ section {
   background: url("../img/about.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
-  padding-left:20px;
+  padding-left:20px !important;
 }
-
+.about-img{
+  height: 380px;
+  margin-top: 55px !important;
+}
 .about .play-btn {
   width: 94px;
   height: 94px;
