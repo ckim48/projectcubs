@@ -5,11 +5,13 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+
 }
 
 a {
-  color: #1acc8d;
+  color: darkgreen;
   text-decoration: none;
+  font-weight: 700 !important;
 }
 
 a:hover {
@@ -1143,6 +1145,13 @@ section {
   .carousel-control-next-icon {
     filter: invert(100%);
   }
+  .bull {
+  list-style-type: circle;
+}
+.font-big{
+font-size: 16px !important;
+color:darkgreen !important;
+}
 .mytop{
   margin-top: 100px !important;
 }
