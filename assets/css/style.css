@@ -16,7 +16,14 @@ a:hover {
   color: #34e5a6;
   text-decoration: none;
 }
+.myl1{
+  margin-bottom: 15px !important;
+  }
+.myl{
+  display: block;
+  font-size: 17px !important;
 
+}
 h1,
 h2,
 h3,
@@ -1115,7 +1122,7 @@ section {
 }*/
 
     .carousel {
-      height: 400px; /* Adjust this value as needed */
+      height: 300px; /* Adjust this value as needed */
       overflow: hidden; /* Hide overflow if images exceed container height */
     }
 
@@ -1136,9 +1143,12 @@ section {
   .carousel-control-next-icon {
     filter: invert(100%);
   }
-
+.mytop{
+  margin-top: 100px !important;
+}
     .team-title{
     font-size: 32px;
+
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
