@@ -10,6 +10,13 @@ body {
 .no-margin{
   margin-bottom: 40px;;
 }
+.justify-text{
+   text-align: justify;
+}
+.clientimg{
+  width: 85%;
+  border-radius: 10px;
+}
 a {
   color: darkgreen;
   text-decoration: none;
@@ -311,7 +318,13 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
+          .list-inline{
+        display: block !important;
+      }
 
+              .list-inline li{
+        margin-top: 15px !important;
+      }
   .navbar ul {
     display: none;
   }
@@ -1126,6 +1139,7 @@ section {
 }*/
 
     .carousel {
+      width:90%;
       height: 300px; /* Adjust this value as needed */
       overflow: hidden; /* Hide overflow if images exceed container height */
     }
@@ -1147,12 +1161,52 @@ section {
   .carousel-control-next-icon {
     filter: invert(100%);
   }
-  .bull {
+  .mybtn{
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid darkgreen;
+    color: rgb(33, 97, 99);
+
+  }
+  .mimar{
+  
+    margin-left: 20px;
+  }
+  .git{
+display: block;
+font-weight: 400 !important;
+
+
+  }
+    .mybtn:hover{
+    background-color: rgb(33, 97, 99);
+    padding: 10px 30px 10px 30px;
+    border: 1px solid darkgreen;
+    color: white;
+
+  }
+  .myul{
+  margin-left: 32px !important;
+}
+  .mybull {
   list-style-type: circle;
 }
+
+    .list-inline {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      padding: 0;
+      list-style: none;
+    }
+
+    .list-inline li {
+      margin-right: 15px; /* Adjust margin as needed */
+    }
 .font-big{
 font-size: 16px !important;
 color:darkgreen !important;
+float:left;
 }
 .mytop{
   margin-top: 100px !important;
