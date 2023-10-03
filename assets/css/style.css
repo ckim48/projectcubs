@@ -7,6 +7,9 @@ body {
   color: #444444;
 
 }
+.color-white{
+  color:white !important;
+}
 .no-margin{
   margin-bottom: 40px;;
 }
@@ -463,7 +466,7 @@ h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+
 }
 
 #hero h2 {
@@ -772,6 +775,9 @@ section {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
+}
+video{
+  width:100%;
 }
 
 .about .video-box {
