@@ -1190,6 +1190,7 @@ font-weight: 400 !important;
 }
   .mybull {
   list-style-type: circle;
+  margin-top: -10px !important;
 }
 
     .list-inline {
